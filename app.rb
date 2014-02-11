@@ -14,9 +14,8 @@ get '/' do
 end
 
 post '/' do
-  @first_name  = params[:first_name]
-  @second_name = params[:second_name]
-  @email       = params[:email]
+  @name  = params[:name]
+  @email = params[:email]
 
   # add email sending code here
 
