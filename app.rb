@@ -18,4 +18,7 @@ post '/' do
   @second_name = params[:second_name]
   @email       = params[:email]
 
-  Pony
+  # add email sending code here
+
+  erb :thanks
+end
